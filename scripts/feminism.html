@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/articole.css">
+    <link href="//db.onlinewebfonts.com/c/f6376fe0d7fbbcbc4b803c622b67f332?family=Dystopian+Bold" rel="stylesheet" type="text/css" />
+    <link href="//db.onlinewebfonts.com/c/cc4e55b58216e47bb86dc3ccdb3ba335?family=Utopian+Two+BW" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Monoton&display=swap" rel="stylesheet">
+    <title>Media Broadcast</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="titleNav">
+
+                <div id="naam">
+                    <h1>Media <br> Broadcast</h1>
+                </div>
+                <img src="../img/logo.jpeg" alt="logo news">
+
+                <nav>
+                    <div id="navHeader"></div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="articole.html">Articole</a></li>
+                        <li><a href="materiale.html">Materiale</a></li>
+                        <li><a href="prezentari.html">Prezentări</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>
+        <main id="mainArticole">
+            <div class="categories">
+                <h4 onclick="politica()">Politică</h4>
+                <h4 onclick="sexism()">Sexism</h4>
+                <h4 onclick="feminism()">Feminism</h4>
+                <h4 onclick="gen()">Identitate de gen</h4>
+                <h4 onclick="contrafacerea()">Contrafacerea</h4>
+                <h4 onclick='clima()'>Schimbări climatice</h4>
+                <h4 onclick="diverse()">Diverse</h4>
+            </div>
+            <br>
+            <div id=searchBar>
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for..">
+            </div>
+            <div id="mainHome">
+
+                <div id=listaArticole>
+
+                    <div id="internalFeminism">
+                    </div>
+                    <div id=list>
+
+                        <table id="myTable" width="900">
+
+                            <tr>
+                                <th style="width:15%">Data</th>
+                                <th style="width:85%">Titlu</th>
+                            </tr>
+
+                            <tr>
+                                <td>28/02/2022</td>
+                                <td onclick="egalitateInFataLegii()" class="pointer" class="titluri">Statele Unite ale Americii - "Egalitate în fața legii"</td>
+                            </tr>
+                            <tr>
+                                <td>16/02/2022</td>
+                                <td onclick="Mutilarea()" class="pointer" class="titluri">Mutilarea genitală feminină - 200 de milioane de femei și un exemplu al nevoii de feminism radical</td>
+                            </tr>
+                            <tr>
+                                <td>9/02/2022</td>
+                                <td onclick="misoginie()" class="pointer" class="titluri">Misoginie - Feminismul radical și "Toate Viețile Contează"</td>
+                            </tr>
+
+                            <tr>
+                                <td>28/01/2022</td>
+                                <td onclick="HughHefner()" class="pointer" class="titluri">Hugh Hefner - feminismul liberal din al doilea val și "emanciparea femeilor"</td>
+                            </tr>
+
+                            <tr>
+                                <td>06/01/2022</td>
+                                <td onclick="womensRights()" class="pointer" class="titluri">Drepturile femeilor – legate de economia unei țări și de rata...</td>
+                            </tr>
+                            <tr>
+                                <td>06/01/2022</td>
+                                <td onclick="thePapacy()" class="pointer" class="titluri">Papalitatea – Feminism cultural și liberal contrafăcut</td>
+                            </tr>
+
+                            <tr>
+                                <td>15/12/2021</td>
+                                <td class="titluri">Clinton – 2011 U.N. speech on LGBT human rights</td>
+                            </tr>
+
+                            <tr>
+                                <td>02/12/2021</td>
+                                <td class="titluri">Sfârșitul lui Roe</td>
+                            </tr>
+
+                            <tr>
+                                <td>02/12/2021</td>
+                                <td class="titluri">China, drepturile omului și WTA</td>
+                            </tr>
+
+                            <tr>
+                                <td>20/11/2021</td>
+                                <td class="titluri">”Autocracy Inc.” – and the domination of women</td>
+                            </tr>
+
+                            <tr>
+                                <td>09/11/2021</td>
+                                <td class="titluri">Spain – Feminism, prostitution, and the culture war</td>
+                            </tr>
+
+                            <tr>
+                                <td>07/11/2021</td>
+                                <td class="titluri">1989 – Opposition to Feminism, and societies unwillingness/inability...
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>07/10/2021</td>
+                                <td class="titluri">#MeToo Movement, China, and the fight for gender equality</td>
+                            </tr>
+
+                            <tr>
+                                <td>29/07/2021</td>
+                                <td><a href="tedEx.html" class="listaArticoleA" class="pointer" class="titluri">Menstruația – TedX discurs despre lipsa de acces a unor femei la
+                                        produse de igienă</td>
+                            </tr>
+                            
+                            </ol>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <div id="footerDiv">Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0</div>
+                    <p id="copyRight"> </p>
+
+                    </footer>
+                </div>
+
+                <script>
+                    let copyRight = document.getElementById("copyRight");
+                    nu = new Date();
+                    copyRight.innerHTML = '&copy; ' + " " + "Copyright" + " " + nu.getFullYear();
+                </script>
+                <script type="text/javascript" src="../js_lib/feminism.js"></script>
+                <script>
+                    var div = document.getElementById("internalFeminism");
+                    var table = document.createElement("table");
+
+                    div.appendChild(table);
+                    var rowLength = 15;
+                    var colLength = 1;
+                    var text = document.createTextNode(i + (j - 1) * 5);
+                    for (var i = 0; i < rowLength; i++) {
+
+                        var rows = document.createElement("tr");
+                        table.appendChild(rows);
+
+                        for (var j = 0; j < colLength; j++) {
+
+                            var columns = document.createElement("td");
+                            var text = document.createTextNode(i + j * rowLength);
+                            columns.appendChild(text);
+                            rows.appendChild(columns);
+                        }
+
+                    }
+                </script>
+</body>
+
+</html>
